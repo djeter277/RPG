@@ -84,7 +84,7 @@ public class Game {
                     System.out.println(">>YOU MUST BE A GUN GUY..<<");
                 else
                     System.out.println(">>INVALID SLECTION ");
-            }while(!(secWeaponSelection.equalsIgnoreCase(secWeapons[0]))&&(!(secWeaponSelection.equalsIgnoreCase(secWeapons[1]))&&
+        }while(!(secWeaponSelection.equalsIgnoreCase(secWeapons[0]))&&(!(secWeaponSelection.equalsIgnoreCase(secWeapons[1])))&&
             (!(secWeaponSelection.equalsIgnoreCase(secWeapons[2]))) &&(!(secWeaponSelection.equalsIgnoreCase(secWeapons[3]))));
             clearScreen();
     }
